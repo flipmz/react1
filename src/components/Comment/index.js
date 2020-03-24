@@ -1,7 +1,10 @@
+
+
 import React, {Component} from "react";
+
 import {MyCoolButton} from "../MyCoolButton";
 
-export class Comment extends Component {
+class Comment extends Component {
     constructor(){
         super();
 
@@ -29,3 +32,5 @@ export class Comment extends Component {
     }
 
 }
+
+export default Comment;

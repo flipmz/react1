@@ -5,14 +5,14 @@ import logo from './logo.svg';
 import './style.css';
 
 
-import {Comment} from "../Comment"
+import Tailbar from "../Comment"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Comment zohiogch="Saraa" />
+        <Tailbar zohiogch="Saraa" />
        
        
       </header>
